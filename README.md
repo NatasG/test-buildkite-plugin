@@ -10,7 +10,7 @@ Add the following to your `pipeline.yml`:
 steps:
   - command: ls
     plugins:
-      - NatasG/test#v1.0.0:
+      - natasg/test#v1.0.0:
           message: 'World'
 ```
 

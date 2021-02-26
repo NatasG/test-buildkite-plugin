@@ -5,6 +5,6 @@ services:
       - ".:/plugin:ro"
   lint:
     image: buildkite/plugin-linter
-    command: ['--id', 'test']
+    command: ['--id', 'natasg/test']
     volumes:
       - ".:/plugin:ro"
