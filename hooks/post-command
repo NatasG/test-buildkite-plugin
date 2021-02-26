@@ -1,0 +1,8 @@
+#!/bin/bash
+set -euo pipefail
+
+MESSAGE="$BUILDKITE_PLUGIN_TEST_MESSAGE"
+
+echo "Hello $MESSAGE"
+
+buildkite-agent annotate "Hello $MESSAGE"

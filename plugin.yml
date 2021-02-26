@@ -1,0 +1,9 @@
+name: Test
+description: Test Buildkite plugin.
+author: https://github.com/NatasG
+requirements: []
+configuration:
+  properties:
+    message:
+      type: string
+  additionalProperties: false
